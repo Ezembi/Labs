@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Все лабы</string>
+
+    <string name="error_length">Пожалуйста, напишите что-нибудь</string>
+    <string name="title_send">Отправить</string>
+    <string name="resulting_text">Полученный текст</string>
+
+    <string name="answer_error">Ответ не получен</string>
+
+    <string name="go_lab_3">Тут лаба 3</string>
+
+    <string name="all_prime_numbers">Все простые числа до указанного</string>
+
+    <string name="calculate_wait">Считаю, ждите</string>
+
+    <string name="title_result">Результат</string>
+
+</resources>

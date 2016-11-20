@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Lab all</string>
+
+    <string name="error_length">Please, write something</string>
+    <string name="title_send">Send</string>
+    <string name="resulting_text">The resulting text</string>
+
+    <string name="answer_error">The answer is not received</string>
+
+    <string name="go_lab_3">Go to lab 3</string>
+
+    <string name="all_prime_numbers">All Prime numbers up to a specified</string>
+
+    <string name="calculate_wait">There is a calculation, wait</string>
+
+    <string name="title_result">Result</string>
+
+</resources>
