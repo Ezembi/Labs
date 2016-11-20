@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import labs.mobile.victor.lab_1.Lab_4.Lab4Activity;
 import labs.mobile.victor.lab_1.R;
 
 public class MainActivity extends AppCompatActivity {
@@ -33,6 +34,14 @@ public class MainActivity extends AppCompatActivity {
         text2 = (EditText) findViewById(R.id.editText2);
         buttonSend = (Button) findViewById(R.id.buttoSend);
         lab_3 = (Button) findViewById(R.id.lab_3);
+
+        Button lab_4 = (Button) findViewById(R.id.lab_4);
+        lab_4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Lab4Activity.class));
+            }
+        });
 
         buttonSend.setOnClickListener(new LocalOnClickListener(text1, text2));
         lab_3.setOnClickListener(new View.OnClickListener() {

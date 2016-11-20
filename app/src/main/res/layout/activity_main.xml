@@ -51,5 +51,16 @@
         android:layout_alignRight="@+id/buttoSend"
         android:layout_alignEnd="@+id/buttoSend" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to lab 4"
+        android:id="@+id/lab_4"
+        android:layout_below="@+id/lab_3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/lab_3"
+        android:layout_alignEnd="@+id/lab_3" />
+
 
 </RelativeLayout>
